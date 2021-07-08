@@ -1,0 +1,102 @@
+body{
+    font-family: 'Encode Sans SC', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+}
+.navbar {
+    overflow: hidden;
+    background-color:orange;
+   
+   
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #position{
+padding-left: 70%;
+
+  }
+  #re{
+      font-weight: 800;
+  }
+  .flaxibal-containar{
+display: flex;
+
+
+
+  }
+  .hero{
+width: 50%;
+margin-left: 7%;
+margin-right: 7%;
+
+
+  }
+  .hero-img{
+
+width: 50%;
+margin-bottom: 2%;
+  }
+  .link-button{
+     text-decoration: none;
+     border: 10px 40px;
+     border-radius: 20px;
+     background-image: linear-gradient(orange,tomato);
+     color: white;
+     padding: 10px 30px;
+
+  }
