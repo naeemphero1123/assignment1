@@ -100,3 +100,37 @@ margin-bottom: 2%;
      padding: 10px 30px;
 
   }
+  .banner{
+    background-image: url(back1.jpg);
+    background-repeat: no-repeat;
+  background-position: 0vh;
+  margin-bottom: 25%;
+  padding-top: 6%;
+  padding-bottom: 4%;
+  margin-top: 8%;
+
+  }
+  #midwrit{
+    margin-top: 0%;
+    margin-right: 12%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+   
+
+  }
+.midimg{
+  margin-right: 8%;
+  margin-top: 10%;
+  margin-bottom: 0;
+  width: 50%;
+}
+.link-button2{
+  text-decoration: none;
+     border: 10px 40px;
+     border-radius: 30px;
+     background-image: linear-gradient(orange,tomato);
+     color: white;
+     padding: 10px 30px;
+
+}
+  
